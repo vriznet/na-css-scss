@@ -1,21 +1,6 @@
 @import '_variables';
+@import '_mixins';
 
-h2 {
-  color: $bg;
-}
-
-.box {
-  margin-top: 20px;
-  &:hover {
-    background-color: green;
-  }
-  h2 {
-    color: blue;
-    &:hover {
-      color: yellow;
-    }
-  }
-  button {
-    color: red;
-  }
+h1 {
+  @include sexyTitle();
 }
