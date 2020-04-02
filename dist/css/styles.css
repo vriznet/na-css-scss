@@ -1,1 +1,1 @@
-h1{color:#00f;font-size:30px;margin-bottom:12px}
+a{margin-bottom:10px}a:nth-child(even),a:nth-child(odd){text-decoration:none;display:block;color:#00f}a:nth-child(even){color:red}
